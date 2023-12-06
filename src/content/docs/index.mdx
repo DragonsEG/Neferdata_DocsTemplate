@@ -1,46 +1,49 @@
 ---
-title: Welcome to Starlight
+title: Welcome to the privacy and security portal of Neferdata
 description: Get started building your docs site with Starlight.
 template: splash
 hero:
   title: |
-    Welcome to Starlight with
+    Welcome to the privacy and security portal of 
     <span
       class="font-black text-transparent
         bg-clip-text bg-gradient-to-b
         from-accent-700 to-accent-400
         dark:from-accent-500 dark:to-accent-200"
     >
-      Tailwind
+      Neferdata
     </span>
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: |
+    Starlight is a documentation template for Astro that comes with a
+    beautiful design system out of the box.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Privacy Policy 
+      link: /privacy/privacy/
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Discover Our GitHub Repositories
+      link: https://github.com/neferdata
       icon: external
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Transparency through Privacy
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Global instance" icon="rocket">
+	Easiest way to take advantage of Neferdata. Just sign up and start using the tools. You still have full control of what metadata is stored in our system.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Self-hosted solution" icon="github">
+If you require enterprise-grade security you can run Neferdata in your own infrastructure. Keep your data while retaining full access to all latest features.
+
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Enterprise managed service" icon="random">
+Experience the same benefits of a dedicated & isolated instance without the IT overhead. We manage Neferdata for you without having any access to your data.
 	</Card>
 	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+		Learn more in [our documentation](/privacy/privacy/) about how we handle your data and what we do to protect your privacy.
 	</Card>
 </CardGrid>
