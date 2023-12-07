@@ -8,20 +8,17 @@ export default defineConfig({
 		starlight({
 			title: 'Neferdata Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/neferdata',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Privacy Policy',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Privacy Policy and security', link: '/privacy/privacy/' },
 					],
 				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+
 			],
 			customCss: ['./src/tailwind.css'],
 		}),
