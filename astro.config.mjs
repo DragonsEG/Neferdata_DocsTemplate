@@ -6,6 +6,9 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
+			logo: {
+			  src: './src/assets/logo.png',
+			},
 			title: 'Neferdata Docs',
 			social: {
 				github: 'https://github.com/neferdata',
